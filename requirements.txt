@@ -1,7 +1,13 @@
-Flask
-Flask-Cors
-llama-index-core>=0.11.0
-# see https://llamahub.ai for all integrations
-llama-index-embeddings-gemini  # can replace with the embed model you want to use
-llama-index-llms-groq # can replace with the llm you want to use
-llama-index-agent-openai
+Flask==3.1.0
+flask-cors==5.0.1
+llama-index==0.12.35
+llama-index-embeddings-huggingface==0.5.4
+llama-index-embeddings-openai==0.3.1
+llama-index-llms-openai==0.3.38
+llama-parse==0.6.22
+huggingface-hub==0.31.1
+numpy==2.2.5
+requests==2.32.3
+pandas==2.2.3
+torch==2.7.0
+transformers==4.51.3
